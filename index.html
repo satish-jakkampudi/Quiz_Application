@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="quiz-title">💡 JavaScript Quiz App</h1>
+  <div class="quiz-container">
+
+    <div id="quiz-box">
+      <div class="question-section">
+        <h2 id="question-text">Loading...</h2>
+        <ul id="option-list"></ul>
+      </div>
+      <div class="navigation">
+        <button id="prev-btn" disabled>⬅️ Previous</button>
+        <button id="submit-btn">✅ Submit</button>
+        <button id="next-btn">Next ➡️</button>
+        <button id="restart-btn" style="display: none;">Restart Quiz</button>
+      </div>
+      <div class="feedback" id="feedback"></div>
+      <div class="score" id="score"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
